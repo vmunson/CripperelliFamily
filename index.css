@@ -12,7 +12,7 @@
 .headertitle{
     margin: 10px;
 }
-ul {
+.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ ul {
     left:-20px;
 }
 
-li {
+.nav li {
     float: right;
     display: block;
     padding: 10px;
@@ -30,7 +30,7 @@ li {
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-li:hover{
+.nav li:hover{
     background-color: rgb(41, 41, 41);
     border: 2px solid white;
 }
@@ -45,6 +45,10 @@ li:hover{
     color: bisque;
     text-align: center;
     font-size: 600%;  
+}
+.body li{
+    color: bisque;
+    font-size: 24px;
 }
 .body p{
     color: bisque;
