@@ -61,8 +61,7 @@ iframe{
     left: 12%;
 }
 .sidebar{
-    height: 400px;
-    width: 250px;
+    padding: 10px 30px;
     background-color: rgba(0, 0, 0, 0.8);
     float: right;
     position: relative;
@@ -97,6 +96,13 @@ iframe{
     background-color: black;
     color: red;
     text-align: center;
+}
+button{
+
+    color: bisque;
+    background-color: black;
+    display: block;
+    margin: auto;
 }
 body{
     background-image: url('./img/brickwall.jpg');
